@@ -1,0 +1,23 @@
+.etiqueta{
+
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 0;
+
+    margin-bottom: 16px;
+    margin-left: 16px;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    font-family: "Poppins", sans-serif;
+    padding: 8px 16px;
+    border-radius: 78px;
+    color: #fff;
+    
+    background-color: hsla(0, 0%, 12%, 0.80);
+
+    backdrop-filter: blur(6px);
+    text-transform: capitalize;
+}

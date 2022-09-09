@@ -1,0 +1,35 @@
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #e63946;   */
+
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.modal.ativo{
+    color: #f1faee;
+    display: flex;
+    opacity: 1;
+
+    background-color: #e63946;  
+}
+
+.texto_modal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.iconDog{
+    font-size: 6rem;
+}

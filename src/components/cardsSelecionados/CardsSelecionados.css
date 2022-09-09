@@ -1,0 +1,40 @@
+.box_card{
+    position: fixed;
+    bottom: 5%;
+    height: 80px; 
+
+    padding: 0px 28px;
+    gap: 1.6rem;
+
+    display: none;
+    align-items: center; 
+    background-color: #FFF;
+    border-radius: 16px;
+    
+    cursor: pointer;
+    /* box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.box_card.ativo{
+    display: flex;
+}
+
+.box_card > .part_cards_selecionados {
+    display: flex;
+    gap: 1rem;
+}
+
+.card_selecionado_box{
+    font-size: 1rem;
+    border-radius: 12px;
+    width: 52px; height: 52px;
+    background-color: hsl(105, 0%, 90%);
+
+    /* background-image: url("https://uploads.metropoles.com/wp-content/uploads/2022/07/04104339/saiba_quais_sao_as_10_racas_de_cachorro_mais_amadas_no_brasil_widexl-600x400.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+.mini_imagem_card{
+    width: 52px; height: 52px;
+}
